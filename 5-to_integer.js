@@ -1,8 +1,8 @@
-const arg =Progress.arg[2]
+const arg = Progress.arg[2];
 const number = parseInt(arg);
 if (isNaN(number)) {
-    console.log('not a number');
+    console.log('Not a number');
 }
 else {
-    console.log ('my number' + number);
+    console.log ('My number' + number);
 }
